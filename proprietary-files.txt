@@ -2289,9 +2289,9 @@ vendor/etc/wifi/wpa_supplicant_overlay.conf
 # Wi-Fi firmware
 vendor/firmware/wigig/wigig.ini
 vendor/firmware/wlan/qca_cld/qca6390/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin
+#vendor/firmware/wlan/qca_cld/qca6390/wlan_mac.bin
 vendor/firmware/wlan/qca_cld/qca6490/WCNSS_qcom_cfg.ini
-vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin
+#vendor/firmware/wlan/qca_cld/qca6490/wlan_mac.bin
 #vendor/firmware/wlan/qca_cld/WCNSS_qcom_cfg.ini
 
 # Wi-Fi Display
@@ -2538,7 +2538,7 @@ vendor/etc/init/factorybsp_service_qcom.rc
 vendor/etc/init/feature_enabler_client.rc
 vendor/etc/init/hostapd.android.rc
 vendor/etc/init/init.edgeinihibition.rc
-vendor/etc/init/init.qdmastats.rc
+#vendor/etc/init/init.qdmastats.rc
 vendor/etc/init/init.qti.display_boot.rc
 vendor/etc/init/init.qti.fm.rc
 vendor/etc/init/init.qti.media.rc
@@ -2650,7 +2650,7 @@ vendor/firmware/spk3_fast_switch3.txt
 vendor/firmware/spk4_fast_switch1.txt
 vendor/firmware/spk4_fast_switch2.txt
 vendor/firmware/spk4_fast_switch3.txt
-vendor/firmware/wlanmdsp.otaupdate
+#vendor/firmware/wlanmdsp.otaupdate
 vendor/lib/btaudio_offload_if.so
 vendor/lib/carwatchdog_aidl_interface-V2-ndk_platform.so
 vendor/lib/ftm_fm_lib.so
