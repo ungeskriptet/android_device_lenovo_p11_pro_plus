@@ -1,0 +1,4 @@
+persist.vendor.dpm.feature=11
+ro.setupwizard.mode=ENABLED
+ro.telephony.sim_slots.count=1
+telephony.active_modems.max_count=2
