@@ -1,0 +1,108 @@
+dt_table_header:
+               magic = d7b7ab1e
+          total_size = 2703419
+         header_size = 32
+       dt_entry_size = 32
+      dt_entry_count = 11
+   dt_entries_offset = 32
+           page_size = 4096
+             version = 0
+dt_table_entry[0]:
+             dt_size = 251100
+           dt_offset = 384
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[1]:
+             dt_size = 241557
+           dt_offset = 251484
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[2]:
+             dt_size = 264814
+           dt_offset = 493041
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[3]:
+             dt_size = 241685
+           dt_offset = 757855
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[4]:
+             dt_size = 258542
+           dt_offset = 999540
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[5]:
+             dt_size = 241428
+           dt_offset = 1258082
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[6]:
+             dt_size = 172429
+           dt_offset = 1499510
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[7]:
+             dt_size = 255013
+           dt_offset = 1671939
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[8]:
+             dt_size = 260196
+           dt_offset = 1926952
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[9]:
+             dt_size = 265903
+           dt_offset = 2187148
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
+dt_table_entry[10]:
+             dt_size = 250368
+           dt_offset = 2453051
+                  id = 00000000
+                 rev = 00000000
+           custom[0] = 00000000
+           custom[1] = 00000000
+           custom[2] = 00000000
+           custom[3] = 00000000
