@@ -55,8 +55,16 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
 # Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1.vendor
+
+# USB
 #PRODUCT_PACKAGES += \
-#    android.hardware.keymaster@4.1.vendor
+#    android.hardware.usb@1.2-service-qti
+
+PRODUCT_PACKAGES += \
+    init.qcom.usb.rc \
+    init.qcom.usb.sh
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -139,7 +147,8 @@ PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+	vendor/qcom/opensource/usb/etc
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/lenovo/p11_pro_plus/p11_pro_plus-vendor.mk)

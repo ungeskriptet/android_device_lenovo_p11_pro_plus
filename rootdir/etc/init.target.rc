@@ -187,12 +187,12 @@ service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
     oneshot
 
 #yangsf0611 add for check  keymaster 20210301
-service check_keymaster /vendor/bin/check_keymaster
-    class core
-    user root
-    group media mediadrm drmrpc
-    oneshot
-    disabled
+#service check_keymaster /vendor/bin/check_keymaster
+#    class core
+#    user root
+#    group media mediadrm drmrpc
+#    oneshot
+#    disabled
 
 on property:ro.boot.secboot=1
 start check_keymaster
