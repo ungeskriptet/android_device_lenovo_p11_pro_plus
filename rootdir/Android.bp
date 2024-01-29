@@ -115,13 +115,6 @@ sh_binary {
 
 // Init configuration files
 prebuilt_etc {
-    name: "init.lenovo.log.rc",
-    src: "etc/init.lenovo.log.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
-prebuilt_etc {
     name: "init.qcom.factory.rc",
     src: "etc/init.qcom.factory.rc",
     sub_dir: "init/hw",
@@ -168,4 +161,11 @@ prebuilt_etc {
     name: "fstab.qcom",
     src: "etc/fstab.qcom",
     vendor: true,
+}
+
+prebuilt_etc {
+	name: "ueventd.qcom.rc",
+	filename: "ueventd.rc",
+	src: "etc/ueventd.qcom.rc",
+	vendor: true,
 }
