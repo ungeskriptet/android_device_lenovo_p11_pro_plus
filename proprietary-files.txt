@@ -182,8 +182,8 @@ vendor/lib64/vendor.qti.hardware.automotive.vehicle@1.0.so
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib/libqti_vndfwk_detect.so
-vendor/lib64/libqti_vndfwk_detect.so
+#vendor/lib/libqti_vndfwk_detect.so
+#vendor/lib64/libqti_vndfwk_detect.so
 
 # Bluetooth (A2DP)
 system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so
@@ -402,7 +402,7 @@ vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libofflinelog.so
 vendor/lib/libos.so
-vendor/lib/libqdMetaData.so
+#vendor/lib/libqdMetaData.so
 vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_encdec.so
@@ -588,7 +588,7 @@ vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libos.so
-vendor/lib64/libqdMetaData.so
+#vendor/lib64/libqdMetaData.so
 vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_encdec.so
@@ -982,8 +982,8 @@ vendor/lib/libdisplaydebug.so
 vendor/lib/libdisplayqos.so
 vendor/lib/libdisplayskuutils.so
 vendor/lib/libdrmutils.so
-vendor/lib/libgralloccore.so
-vendor/lib/libgrallocutils.so
+#vendor/lib/libgralloccore.so
+#vendor/lib/libgrallocutils.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 #vendor/lib/libqdutils.so
@@ -1046,8 +1046,8 @@ vendor/lib64/libdisplayqos.so
 vendor/lib64/libdisplayskuutils.so
 vendor/lib64/libdrmutils.so
 vendor/lib64/libgpu_tonemapper.so
-vendor/lib64/libgralloccore.so
-vendor/lib64/libgrallocutils.so
+#vendor/lib64/libgralloccore.so
+#vendor/lib64/libgrallocutils.so
 vendor/lib64/libgsl.so
 vendor/lib64/libhistogram.so
 vendor/lib64/libllvm-glnext.so
@@ -1385,9 +1385,9 @@ system_ext/lib64/motorola.hardware.input@1.1.so
 vendor/bin/ipacm-diag
 vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/ipacm.rc
-vendor/etc/IPACM_cfg.xml
-vendor/lib64/libipanat.so
-vendor/lib64/liboffloadhal.so
+#vendor/etc/IPACM_cfg.xml
+#vendor/lib64/libipanat.so
+#vendor/lib64/liboffloadhal.so
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
@@ -1446,10 +1446,10 @@ vendor/lib64/hw/local_time.default.so
 # lib64/libstagefright_surface_utils.so
 system_ext/lib/vendor.qti.hardware.vpp@1.1.so
 system_ext/lib64/vendor.qti.hardware.vpp@1.1.so
-vendor/bin/hw/android.hardware.media.omx@1.0-service
+#vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/bin/hw/vendor.qti.media.c2@1.0-service
 vendor/bin/vppservice
-vendor/etc/init/android.hardware.media.omx@1.0-service.rc
+#vendor/etc/init/android.hardware.media.omx@1.0-service.rc
 vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
 vendor/etc/init/vppservice.rc
 vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy
@@ -1487,7 +1487,7 @@ vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
 vendor/lib/libc2dcolorconvert.so
 vendor/lib/libmmosal.so
-vendor/lib/libplatformconfig.so
+#vendor/lib/libplatformconfig.so
 vendor/lib/libqcodec2_base.so
 vendor/lib/libqcodec2_basecodec.so
 vendor/lib/libqcodec2_core.so
@@ -1537,7 +1537,7 @@ vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libc2dcolorconvert.so
 vendor/lib64/libmmosal.so
-vendor/lib64/libplatformconfig.so
+#vendor/lib64/libplatformconfig.so
 vendor/lib64/libqcodec2_base.so
 vendor/lib64/libqcodec2_basecodec.so
 vendor/lib64/libqcodec2_core.so
@@ -1828,10 +1828,10 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 
 # Radio (IMS)
-system_ext/apex/com.android.vndk.v31/lib/libdmabufheap.so
-system_ext/apex/com.android.vndk.v31/lib64/libdmabufheap.so
-system_ext/apex/com.android.vndk.v32/lib/libdmabufheap.so
-system_ext/apex/com.android.vndk.v32/lib64/libdmabufheap.so
+#system_ext/apex/com.android.vndk.v31/lib/libdmabufheap.so
+#system_ext/apex/com.android.vndk.v31/lib64/libdmabufheap.so
+#system_ext/apex/com.android.vndk.v32/lib/libdmabufheap.so
+#system_ext/apex/com.android.vndk.v32/lib64/libdmabufheap.so
 system_ext/lib/com.qualcomm.qti.imscmservice@2.0.so
 system_ext/lib/com.qualcomm.qti.imscmservice@2.1.so
 system_ext/lib/com.qualcomm.qti.imscmservice@2.2.so
@@ -2424,18 +2424,18 @@ vendor/bin/StoreKeybox
 # vendor/bin/applypatch
 vendor/bin/athdiag
 vendor/bin/audioflacapp
-vendor/bin/boringssl_self_test32
-vendor/bin/boringssl_self_test64
+#vendor/bin/boringssl_self_test32
+#vendor/bin/boringssl_self_test64
 vendor/bin/btwlansn
 # vendor/bin/chattr
 vendor/bin/check_keymaster
-vendor/bin/checkpoint_gc
+#vendor/bin/checkpoint_gc
 vendor/bin/chifeature2test
 vendor/bin/chiofflinepostproctest
 vendor/bin/cnss_diag
 # vendor/bin/cplay
 vendor/bin/create_factory_persist_file
-vendor/bin/devmem
+#vendor/bin/devmem
 vendor/bin/diag_callback_sample
 vendor/bin/diag_dci_sample
 vendor/bin/diag_klog
@@ -2463,17 +2463,17 @@ vendor/bin/hal_proxy_daemon
 vendor/bin/hdcp1prov
 vendor/bin/hdcp2p2prov
 vendor/bin/host_manager_11ad
-vendor/bin/i2cdetect
-vendor/bin/i2cdump
-vendor/bin/i2cget
-vendor/bin/i2cset
-vendor/bin/iconv
+#vendor/bin/i2cdetect
+#vendor/bin/i2cdump
+#vendor/bin/i2cget
+#vendor/bin/i2cset
+#vendor/bin/iconv
 vendor/bin/ifaa_product
-vendor/bin/install
+#vendor/bin/install
 vendor/bin/irsc_util
 vendor/bin/keymasterd
 vendor/bin/loadalgo
-vendor/bin/lsattr
+#vendor/bin/lsattr
 vendor/bin/mdm_helper_proxy
 vendor/bin/mlid
 vendor/bin/mm-vidc-omx-test
@@ -2483,10 +2483,10 @@ vendor/bin/mutualex
 vendor/bin/myftm
 vendor/bin/nativechitest
 vendor/bin/nativehaltest
-vendor/bin/nc
-vendor/bin/netcat
+#vendor/bin/nc
+#vendor/bin/netcat
 vendor/bin/nproc
-vendor/bin/nsenter
+#vendor/bin/nsenter
 vendor/bin/pktlogconf
 vendor/bin/pm-proxy
 vendor/bin/pm-service
@@ -2497,7 +2497,7 @@ vendor/bin/qdcmss
 vendor/bin/qfp-daemon
 vendor/bin/qmipriod
 vendor/bin/qseecom_sample_client
-vendor/bin/readelf
+#vendor/bin/readelf
 vendor/bin/secure_ui_sample_client
 vendor/bin/sensingdaemon
 vendor/bin/shell_11ad
@@ -2509,14 +2509,14 @@ vendor/bin/ssgqmigd
 vendor/bin/ssr_diag
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
-vendor/bin/test
+#vendor/bin/test
 vendor/bin/test_diag
 vendor/bin/tloc_daemon
-vendor/bin/unlink
-vendor/bin/unshare
-vendor/bin/uuidgen
+#vendor/bin/unlink
+#vendor/bin/unshare
+#vendor/bin/uuidgen
 vendor/bin/vendor_cmd_tool
-vendor/bin/watch
+#vendor/bin/watch
 vendor/bin/wdsdaemon
 vendor/bin/wifilearner
 vendor/bin/wigig_wiburn
@@ -2615,7 +2615,7 @@ vendor/etc/ftm_test_config_kona-qrd-snd-card
 vendor/etc/gnss_antenna_info.conf
 vendor/etc/gpfspath_oem_config.xml
 vendor/etc/init.qti.fm.sh
-vendor/etc/mkshrc
+#vendor/etc/mkshrc
 vendor/etc/msm_irqbalance.conf
 vendor/etc/public.libraries.txt
 vendor/etc/sec_config
@@ -2727,7 +2727,7 @@ vendor/lib/libhdcpsrm.so
 vendor/lib/libhdmiedid.so
 vendor/lib/libhdmipassthru.so
 vendor/lib/libhdr_tm.so
-vendor/lib/libhfp.so
+#vendor/lib/libhfp.so
 vendor/lib/libifaaproduct.so
 vendor/lib/libipebpsstriping.so
 vendor/lib/libjnihelper.so
@@ -2741,7 +2741,7 @@ vendor/lib/libmdsprpc.so
 vendor/lib/libmiracast.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libmm-hdcpmgr.so
-vendor/lib/libmm-omxcore.so
+#vendor/lib/libmm-omxcore.so
 vendor/lib/libmulawdec.so
 vendor/lib/libnative-api.so
 vendor/lib/libnetmgr_nr_fusion.so
@@ -2754,7 +2754,7 @@ vendor/lib/libpdnotifier.so
 vendor/lib/libperfioctl.so
 vendor/lib/libpowercallback.so
 vendor/lib/libpowercore.so
-vendor/lib/libpsi.so
+#vendor/lib/libpsi.so
 vendor/lib/libpvr.so
 vendor/lib/libq3dtools_adreno.so
 vendor/lib/libqcci_legacy.so
@@ -2912,7 +2912,7 @@ vendor/lib64/libhdcpsrm.so
 vendor/lib64/libhdmiedid.so
 vendor/lib64/libhdmipassthru.so
 vendor/lib64/libhdr_tm.so
-vendor/lib64/libhfp.so
+#vendor/lib64/libhfp.so
 vendor/lib64/libifaaproduct.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libjnihelper.so
@@ -2930,13 +2930,13 @@ vendor/lib64/libmeters.so
 vendor/lib64/libmiracast.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmm-hdcpmgr.so
-vendor/lib64/libmm-omxcore.so
+#vendor/lib64/libmm-omxcore.so
 vendor/lib64/libmulawdec.so
 vendor/lib64/libnative-api.so
-vendor/lib64/libnetfilter_conntrack.so
+#vendor/lib64/libnetfilter_conntrack.so
 vendor/lib64/libnetmgr_nr_fusion.so
 vendor/lib64/libnetmgr_rmnet_ext.so
-vendor/lib64/libnfnetlink.so
+#vendor/lib64/libnfnetlink.so
 vendor/lib64/libnpu.so
 vendor/lib64/liboemaids_vendor.so
 vendor/lib64/libopenvx.so
@@ -2945,7 +2945,7 @@ vendor/lib64/libpdnotifier.so
 vendor/lib64/libperfioctl.so
 vendor/lib64/libpowercallback.so
 vendor/lib64/libpowercore.so
-vendor/lib64/libpsi.so
+#vendor/lib64/libpsi.so
 vendor/lib64/libpvr.so
 vendor/lib64/libq3dtools_adreno.so
 vendor/lib64/libqcci_legacy.so

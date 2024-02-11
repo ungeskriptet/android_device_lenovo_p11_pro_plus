@@ -241,6 +241,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.dsi.ant@1.0.vendor
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    liboffloadhal \
+    libnfnetlink \
+    libnetfilter_conntrack \
+    libipanat \
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
@@ -255,6 +264,7 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libOmxVidcCommon \
+    libplatformconfig \
     libstagefrighthw
 
 PRODUCT_ODM_PROPERTIES += \
